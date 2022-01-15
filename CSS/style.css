@@ -3,6 +3,7 @@
   --color-heading: #000;
   --color-content: #4f33a3;
   --color-body: #696969;
+  --color-normal: #fff;
 }
 
 *,
@@ -38,4 +39,31 @@ h2 {
 h3 {
   font-size: 2rem;
   margin-bottom: 1.2rem;
+}
+
+/* Link */
+a {
+  text-decoration: none;
+}
+/* Button */
+.btn {
+  background: var(--color-secondary);
+  border-radius: 40px;
+  border: none;
+  color: var(--color-normal);
+  cursor: pointer;
+  outline: 0;
+  padding: 2rem 4rem;
+  text-align: center;
+  white-space: nowrap;
+  font-weight: 500;
+}
+.btn--small {
+  font-size: 1.4rem;
+  padding: 1.4rem 2rem;
+}
+.btn--normal {
+  background: var(--color-normal);
+  border: 2px solid var(--color-secondary);
+  color: #220970;
 }

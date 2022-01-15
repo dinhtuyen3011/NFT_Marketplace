@@ -57,6 +57,7 @@ a {
   text-align: center;
   white-space: nowrap;
   font-weight: 500;
+  margin-right: 1.2rem;
 }
 .btn--small {
   font-size: 1.4rem;
@@ -66,4 +67,12 @@ a {
   background: var(--color-normal);
   border: 2px solid var(--color-secondary);
   color: #220970;
+}
+.btn--categories {
+  padding: 1rem 2rem;
+}
+.btn--categories-normal {
+  background: #dcdcdc;
+  padding: 1rem 2rem;
+  color: var(--color-heading);
 }

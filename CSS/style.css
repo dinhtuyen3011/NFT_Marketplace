@@ -1,0 +1,41 @@
+:root {
+  --color-secondary: #3d00b7;
+  --color-heading: #000;
+  --color-content: #4f33a3;
+  --color-body: #696969;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/*Typography */
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: var(--color-body);
+}
+h1,
+h2,
+h3 {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  color: var(--color-heading);
+}
+h1 {
+  font-size: 4.8 rem;
+  margin-bottom: 2.2rem;
+}
+h2 {
+  font-size: 2.8rem;
+}
+h3 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+}

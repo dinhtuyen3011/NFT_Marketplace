@@ -47,10 +47,8 @@ a {
 }
 /* Button */
 .btn {
-  background: var(--color-secondary);
   border-radius: 40px;
   border: none;
-  color: var(--color-normal);
   cursor: pointer;
   outline: 0;
   padding: 2rem 4rem;
@@ -63,16 +61,31 @@ a {
   font-size: 1.4rem;
   padding: 1.4rem 2rem;
 }
+.btn--secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-normal);
+  transition: background-color 0.3s;
+}
+.btn--secondary:hover {
+  background: #00e8eb;
+}
 .btn--normal {
-  background: var(--color-normal);
+  background-color: var(--color-normal);
   border: 2px solid var(--color-secondary);
   color: #220970;
+}
+.btn--normal:hover {
+  background-color: #dcdcdc;
 }
 .btn--categories {
   padding: 1rem 2rem;
 }
 .btn--categories-normal {
-  background: #dcdcdc;
+  background-color: #dcdcdc;
   padding: 1rem 2rem;
   color: var(--color-heading);
+  transition: background-color 0.3s;
+}
+.btn--categories-normal:hover {
+  background-color: #e6d8d8;
 }

@@ -1,3 +1,4 @@
+@import "../font/IntegralCF-Bold/style.css";
 :root {
   --color-secondary: #3d00b7;
   --color-heading: #000;
@@ -27,16 +28,17 @@ body {
 h1,
 h2,
 h3 {
-  font-family: Inter, Arial, Helvetica, sans-serif;
   color: var(--color-heading);
 }
 
 h1 {
+  font-family: "Integral CF";
   font-size: 4.8 rem;
   margin-bottom: 2.2rem;
 }
 
 h2 {
+  font-family: "Integral CF";
   font-size: 2.8rem;
 }
 
@@ -180,15 +182,16 @@ a {
 .container--nav {
   border-bottom: 1px solid #efefef;
 }
+.container__heading {
+  text-transform: uppercase;
+}
 .nav {
   display: flex;
   justify-content: space-between;
   flex-wrap: nowrap;
-  /* padding: 0 1rem; */
   align-items: center;
   margin: auto 12rem;
-
-  height: 10rem;
+  height: 11rem;
 }
 
 .nav__brand h3 {
@@ -234,4 +237,72 @@ a {
   padding-left: 35px;
   margin-left: 31px;
   border-left: 1px solid #efefef;
+}
+.hero {
+  margin: auto 12rem;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 62rem;
+}
+.hero .grid--1x2 {
+  grid-template-columns: 50% 50%;
+}
+
+.hero .grid {
+}
+.hero .container__heading {
+  font-weight: 400;
+}
+img {
+  display: block;
+}
+.hero__content {
+  text-align: left;
+  align-self: center;
+}
+.hero__image_1 {
+  position: absolute;
+}
+.hero__image_2 {
+  position: absolute;
+  z-index: -1;
+
+  right: 32px;
+}
+.hero__image_3 {
+  position: absolute;
+  z-index: -2;
+  right: 40px;
+}
+.container--amaze {
+  background: #d9e0ec;
+}
+.amaze {
+  grid-template-columns: repeat(3, 1fr);
+  height: 326px;
+  text-align: left;
+  justify-items: self-end;
+  align-items: center;
+  margin-left: 121px;
+  margin-right: 117px;
+}
+.amaze__block {
+  display: flex;
+}
+
+.amaze__heading {
+  text-transform: uppercase;
+  line-height: 34px;
+  font-weight: bold;
+}
+.amaze .icon {
+  width: 36px;
+  height: 36px;
+  margin-right: 17px;
+}
+.amaze__paragraph {
+  font-size: 1.4rem;
+}
+.amaze__block h3 {
+  margin-top: 6px;
 }

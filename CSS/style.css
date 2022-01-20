@@ -170,14 +170,13 @@ a {
 .grid--1x3 {
   grid-template-columns: repeat(3, 1fr);
 }
-
-.list {
+.grid--row-1x3 .list {
   list-style: none;
   padding-left: 0;
 }
 .container {
-  width: 1446px;
-  margin: 0 auto;
+  width: 1200px;
+  margin: 0 120px 0 120px;
 }
 .container--nav {
   border-bottom: 1px solid #efefef;
@@ -275,7 +274,7 @@ img {
   right: 40px;
 }
 .container--amaze {
-  background: #d9e0ec;
+  background: rgba(217, 224, 236, 0.2);
 }
 .amaze {
   grid-template-columns: repeat(3, 1fr);
@@ -283,8 +282,6 @@ img {
   text-align: left;
   justify-items: self-end;
   align-items: center;
-  margin-left: 121px;
-  margin-right: 117px;
 }
 .amaze__block {
   display: flex;
@@ -295,14 +292,67 @@ img {
   line-height: 34px;
   font-weight: bold;
 }
+
 .amaze .icon {
   width: 36px;
   height: 36px;
   margin-right: 17px;
 }
+
 .amaze__paragraph {
   font-size: 1.4rem;
 }
+
 .amaze__block h3 {
   margin-top: 6px;
+}
+
+.collectionNFT {
+  height: 619px;
+  background-color: rgba(217, 224, 236, 0.2);
+  padding-top: 65px;
+}
+.collection {
+  margin-top: 55px;
+  grid-column-gap: 31px;
+}
+
+.collection__image {
+  grid-column-gap: 9px;
+}
+
+.image_main {
+  width: 265.85px;
+  height: 272.27px;
+}
+.image_sub {
+  width: 103.59px;
+  height: 85.26px;
+  margin-left: 0px;
+}
+.collection__image-sub {
+  grid-template-rows: auto auto auto;
+  grid-row-gap: 8.25px;
+}
+
+.collection__avatar {
+  width: 28px;
+  height: 28px;
+  margin: 10px 10px 10px 0;
+}
+
+.collection__information-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.collection__information-avatar {
+  /* align-content: center; */
+  display: flex;
+  align-items: center;
+}
+
+.collection__information-avatar p {
+  display: inline-block;
 }

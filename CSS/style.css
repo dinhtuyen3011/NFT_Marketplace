@@ -176,7 +176,7 @@ a {
 }
 .container {
   width: 1200px;
-  margin: 0 120px 0 120px;
+  margin: auto 120px auto 120px;
 }
 .container--nav {
   border-bottom: 1px solid #efefef;
@@ -355,4 +355,63 @@ img {
 
 .collection__information-avatar p {
   display: inline-block;
+}
+
+.signup > .container {
+  margin-top: 120px;
+  margin-bottom: 82px;
+  height: 606px;
+  align-items: center;
+}
+
+.signup__image {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.signup__image2 {
+  position: relative;
+  width: 240.95px;
+  height: 265.04px;
+  left: 364px;
+  top: -160px;
+}
+
+.signup__image3 {
+  position: relative;
+  width: 194.55px;
+  height: 214px;
+  left: 105px;
+  top: -200px;
+}
+
+.image__signup {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.image__avatar {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  right: -28px;
+  bottom: -34px;
+  z-index: 1;
+}
+
+.signup .grid--1x2 {
+  grid-template-columns: 50% 50%;
+}
+
+.signup__content {
+  margin-left: 78.05px;
+  align-items: center;
+  position: relative;
+  top: -112px;
+}
+
+.signup__content > a {
+  margin-top: 32px;
 }
